@@ -1,0 +1,51 @@
+.header{
+    height: 100vh;
+    background-color: rgba(177, 177, 238, 0.542);
+}
+.calc{
+    margin-top: 60px;
+    height: 90vh;
+    /* border:; */
+    border-radius: 15px;
+    margin-top: 60px;
+    position: relative;
+    border-top: black solid 38vh;
+    border-bottom: rgba(150, 61, 61, 0.604) solid 52vh;
+}
+.btns{
+    margin-top: 2px;
+}
+.buttons{
+    margin-bottom: 54px;
+    position: relative;
+    left: 5%;
+}
+.btn1{
+    margin-right: 25px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}
+input[type=text]{
+    width: 100%;
+    position: absolute;
+    font-size: 35px;
+    height: 70px;
+    top: -69px;
+    left: 0.1%;
+    text-align: right;
+    border: none;
+    display:inline-block;
+
+}
+@media (max-width:600px){
+    .calc{
+        margin-top: 0;
+        height: 100vh;
+        border-top:black solid 45vh ;
+        border-bottom: rgba(150, 61, 61, 0.604) solid 55vh;
+    }
+    .btn1{
+        font-size: 25px;
+    }
+}
