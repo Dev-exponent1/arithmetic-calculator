@@ -49,6 +49,12 @@ input[type=text]{
         border-radius: 0 0 10px 10px;
         border-bottom: rgba(150, 61, 61, 0.604) solid 60vh;
     }
+    .buttons{
+        margin-bottom: 45px;
+    }
+    .buttons0{
+        margin-bottom: 35px;
+    }
     .btn1{
         font-size: 25px;
       
