@@ -50,11 +50,9 @@ input[type=text]{
         border-bottom: rgba(150, 61, 61, 0.604) solid 60vh;
     }
     .buttons{
-        margin-bottom: 45px;
+        margin-bottom: 50px;
     }
-    .buttons0{
-        margin-bottom: 35px;
-    }
+    
     .btn1{
         font-size: 25px;
       
