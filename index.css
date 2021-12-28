@@ -4,21 +4,23 @@
 }
 .calc{
     margin-top: 60px;
-    height: 90vh;
-    /* border:; */
+    height: 60vh;
     border-radius: 15px;
     margin-top: 60px;
     position: relative;
-    border-top: black solid 38vh;
-    border-bottom: rgba(150, 61, 61, 0.604) solid 52vh;
+    border-top: black solid 33vh;
+    border-bottom: rgba(150, 61, 61, 0.604) solid 50vh;
 }
 .btns{
-    margin-top: 2px;
+    margin-top: 0px;
 }
 .buttons{
-    margin-bottom: 54px;
+    margin-bottom: 40px;
     position: relative;
     left: 5%;
+}
+.buttons0{
+    margin-bottom: 30px;
 }
 .btn1{
     margin-right: 25px;
@@ -40,12 +42,15 @@ input[type=text]{
 }
 @media (max-width:600px){
     .calc{
-        margin-top: 0;
+        margin-top: 0%;
         height: 100vh;
-        border-top:black solid 45vh ;
-        border-bottom: rgba(150, 61, 61, 0.604) solid 55vh;
+        border-top:black solid 40vh ;
+        background-color: brown;
+        border-radius: 0 0 10px 10px;
+        border-bottom: rgba(150, 61, 61, 0.604) solid 60vh;
     }
     .btn1{
         font-size: 25px;
+      
     }
 }
